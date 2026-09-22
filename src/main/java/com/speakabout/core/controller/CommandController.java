@@ -10,6 +10,6 @@ public class CommandController {
 
     @GetMapping("/test")
     public String test(){
-        return "Backend is live";
+        return "Backend is live now.";
     }
 }
